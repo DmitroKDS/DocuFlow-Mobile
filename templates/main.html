@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docu Flow</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static',filename='/css/main.css') }}">
+
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='favicon.ico') }}">
+</head>
+
+<body>
+    <nav>
+       <a href="/"><img src="/static/images/logo.png" class="logo"/></a>
+    </nav>
+    <section class="about">
+        <h2>Документи <span>це легко</span></h2>
+        <p>We’re building personalized legal contracts at lightning speed for a fraction of the cost.</p>
+    </section>
+    <section class="actions">
+        <a href="/creation">
+            <div class="info">
+                <div><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-edit-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 15l8.385 -8.415a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3z" /><path d="M16 5l3 3" /><path d="M9 7.07a7 7 0 0 0 1 13.93a7 7 0 0 0 6.929 -6" /></svg></div>
+                Створення
+            </div>
+            <p>Тут ти зможеш за декілька хвилин зробити документ на тему, яка тобі потрібна.</p>
+        </a>
+        <a href="/explanation">
+            <div class="info">
+                <div><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-edit-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 15l8.385 -8.415a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3z" /><path d="M16 5l3 3" /><path d="M9 7.07a7 7 0 0 0 1 13.93a7 7 0 0 0 6.929 -6" /></svg></div>
+                Пояснення
+            </div>
+            <p>Переклад документа для простих людей за декілька хвилин.</p>
+        </a>
+    </section>
+
+</body>
+
+</html>
