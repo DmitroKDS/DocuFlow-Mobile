@@ -1,0 +1,9 @@
+services:
+  document_service:
+    build:
+      context: .
+      dockerfile: ./DocuApp/Dockerfile
+    ports:
+      - 8082:5000
+    restart: always
+  
